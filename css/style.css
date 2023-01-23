@@ -446,6 +446,11 @@ p {
     flex-grow: 0;
 }
 
+.hover-primary:hover {
+    background: #8257E5;
+    transition: 0.3s ease-in-out;
+}
+
 .hover-primary-text {
     width: 114px;
     height: 24px;
@@ -482,6 +487,10 @@ p {
     flex-grow: 0;
 }
 
+.focus-primary:focus{
+    border: 2px solid red;
+}
+
 .focus-primary-text {
     width: 115px;
     height: 24px;
@@ -515,6 +524,7 @@ p {
     flex: none;
     order: 3;
     flex-grow: 0;
+    cursor: not-allowed;
 }
 
 .disabled-primary-text {
@@ -549,6 +559,7 @@ p {
     flex: none;
     order: 4;
     flex-grow: 0;
+    cursor: progress;
 }
 
 .loading-primary-text {
@@ -593,6 +604,7 @@ p {
     flex: none;
     order: 5;
     flex-grow: 0;
+    cursor: move;
 }
 
 .movable-primary-text {
@@ -665,6 +677,11 @@ p {
     flex-grow: 0;
 }
 
+.hover-secondary:hover {
+    background: #3C3748;
+    transition: 0.3s ease-in-out;
+}
+
 .hover-secondary-text {
     width: 139px;
     height: 24px;
@@ -701,6 +718,10 @@ p {
     flex-grow: 0;
 }
 
+.focus-secondary:focus{
+    border: 2px solid red;
+}
+
 .focus-secondary-text {
     width: 139px;
     height: 24px;
@@ -734,6 +755,7 @@ p {
     flex: none;
     order: 3;
     flex-grow: 0;
+    cursor: not-allowed;
 }
 
 .disabled-secondary-text {
@@ -768,6 +790,7 @@ p {
     flex: none;
     order: 4;
     flex-grow: 0;
+    cursor: progress;
 }
 
 .loading-secondary-text {
@@ -802,6 +825,7 @@ p {
     flex: none;
     order: 5;
     flex-grow: 0;
+    cursor: move;
 }
 
 .movable-secondary-text {
@@ -892,6 +916,10 @@ p {
     flex-grow: 0;
 }
 
+.hover-tertiary-text:hover{
+    zoom: 110%;
+}
+
 .focus-tertiary {
     background-color: transparent;
     box-sizing: border-box;
@@ -908,6 +936,10 @@ p {
     flex: none;
     order: 2;
     flex-grow: 0;
+}
+
+.focus-tertiary:focus{
+    border: 2px solid red;
 }
 
 .focus-tertiary-text {
@@ -943,6 +975,7 @@ p {
     flex: none;
     order: 3;
     flex-grow: 0;
+    cursor: not-allowed;
 }
 
 .disabled-tertiary-text {
@@ -977,6 +1010,7 @@ p {
     flex: none;
     order: 4;
     flex-grow: 0;
+    cursor: progress;
 }
 
 .loading-tertiary-text {
@@ -1011,6 +1045,7 @@ p {
     flex: none;
     order: 5;
     flex-grow: 0;
+    cursor: move;
 }
 
 .movable-tertiary-text {
@@ -1207,7 +1242,7 @@ p {
     flex-grow: 0;
 }
 
-.second-button-interaja-comigo:hover{
+.second-button-interaja-comigo:hover {
     cursor: not-allowed;
 }
 
